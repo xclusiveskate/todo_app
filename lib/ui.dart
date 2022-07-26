@@ -135,7 +135,7 @@ class _ToDoState extends State<ToDo> {
                       child: Row(
                         children: [
                           IconButton(
-                              onPressed: () async {
+                              onPressed: () async{
                                 dynamic received = await Navigator.pushNamed(
                                     context, '/edit',
                                     arguments: {
